@@ -1,0 +1,102 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color: #FFFFFF;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #808080;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 20px;
+}
+.navbar-brand h1 { /* Food, LLC name */
+	font-family: 'Lora' serif;
+	color: #000000;
+	font-size: 1.9em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .60;
+}
+#collapsable-nav a {
+	font-size: 1.2em;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+} 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #000000;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #e7e7e7;
+}
+#nav-list a span {
+	margin-top: 5px;
+}
+/** END HEADER **/
+
+/** Home Page **/
+
+#chicken-tile, #beef-tile, #sushi-tile {
+	height: auto;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	background-color: grey;
+}
+
+#chicken-tile span, #beef-tile span, #sushi-tile span {
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+}
+ 
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+ 
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+ 
+  }
+  
+}
